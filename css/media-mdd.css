@@ -1,0 +1,62 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        background-origin: content-box;
+        background: url('../img/bg_fundo_xl.jpg') no-repeat center top;
+    }
+    .bodytkp {
+        background-origin: content-box;
+        background: url('../img/tkp_fundo_xl.jpg') no-repeat center top !important;
+    }
+
+    .box {
+        border-radius: 20px;
+        max-width: 320px;
+        margin-top: 60px;
+        right: 60px;
+    }
+
+    .box p {
+        font-size: 16px;
+        font-weight: normal;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .box form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .conteudo-a {
+        margin-top: 40px;
+        width: 70%;
+        /*margin-left: 150px !important;*/
+        /*margin-right: 120px !important;*/
+        /*width: 50%;*/
+     /*   visibility: hidden;*/
+    }
+
+    .conteudo-b {
+        margin-top: 70px;
+       /* visibility: hidden;*/
+
+    }
+
+    .conteudo-tkp-a {
+        margin-top: 10px;
+    }
+
+    .skills-wheel {
+        top: 10px;
+    }
+
+
+    @media (min-width: 1039px) and (max-width: 1199px) {
+
+        .conteudo-a {
+        margin-top: 40px;
+        width: 100%;
+    }
+    
+
+}

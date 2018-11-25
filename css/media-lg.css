@@ -1,0 +1,57 @@
+@media (min-width: 1200px) and (max-width: 1440px) {
+    body {
+        background-origin: content-box;
+        background: url('../img/bg_fundo_xl.jpg') no-repeat center top;
+        background-size: cover;
+    }
+
+    .bodytkp {
+        background-origin: content-box;
+        background: url('../img/tkp_fundo_xl.jpg') no-repeat center top !important;
+    }
+
+    .box {
+        border-radius: 20px;
+        max-width: 380px;
+        right: 0px;
+        margin-right: 50px;
+        margin-top: 40px;
+
+    }
+
+    .box p {
+        font-size: 16px;
+        font-weight: normal;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .box form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .conteudo-a {
+        margin-right: 200px !important;
+        margin-top: 25px;
+        width: 80%;
+
+        
+     /*   visibility: hidden;*/
+    }
+
+    .conteudo-b {
+        /*visibility: hidden;*/
+        margin-top: 75px;
+    }
+
+    .conteudo-tkp-a {
+        margin-top: 10px;
+        margin-top: 420px;
+    }
+
+   
+
+  
+
+}

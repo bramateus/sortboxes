@@ -1,0 +1,52 @@
+.btn, select {
+    cursor: pointer;
+}
+
+.respiro {
+    height: 60px;
+}
+
+.btn-close {
+    display: none;
+}
+
+.btn-formulario-display {
+    display: none;
+}
+
+/*CONFIGURAR COR, BORDA APENAS. DEMAIS CONFIGURAÇÕES CONFIGURAR NA MEDIA RESPECTIVA*/
+.box {
+    background-color: #243f56;
+    /*opacity: 0.9;*/
+
+    /*GARANTE O FORMÚLARIO FIXO E SEMPRE A FRENTE DE TUDO*/
+    position: fixed;
+    z-index: 9000;
+    position: absolute;
+}
+
+span#aguarde {
+    font-size: 1rem !important;
+}
+
+.efeito {
+    background-color: #000;
+    height: 2817px;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 4000;
+}
+
+.consulteregulamento {
+    background: #FFF;
+    border: 1px solid #e17131;
+    border-radius: 10px;
+    color: #e17131;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 8px 20px;
+    position: absolute;
+}

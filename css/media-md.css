@@ -1,0 +1,65 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-origin: content-box;
+        background: url('../img/bg_fundo_xl.jpg') no-repeat fixed center top;
+    }
+    .bodytkp {
+        background-origin: content-box;
+        background: url('../img/tkp_fundo_xl.jpg') no-repeat center top !important;
+    }
+
+    .box {
+        display: inline;
+        position: absolute !important;
+        border-radius: 20px;
+        max-width: 60%;
+        top: 520px;
+        left: 0;
+        right: 0;
+        margin: 0 auto 50px;
+    }
+
+    .box p {
+        font-size: 18px;
+        font-weight: normal;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .box form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .conteudo-a {
+        margin-top: 25px;
+        margin-left: 50px !important;
+        width: 80%;
+    }
+
+    .conteudo-b {
+        /*visibility: hidden;*/
+        margin-top: 40px;
+    }
+
+
+    /* QUEBRA */
+   /* @media (min-width: 768px) and (max-width: 856px) {
+        .conteudo-a {
+            margin-left: 0px !important;
+            width: 100%;
+                    }
+
+    }*/
+    
+
+
+
+    .conteudo-tkp-a {
+        margin-top: 10px;
+    }
+
+    .skills-wheel {
+        display: none;
+    }
+}

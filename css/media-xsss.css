@@ -1,0 +1,59 @@
+@media (min-width: 1px) and (max-width: 320px) {
+    body {
+        background-origin: content-box;
+        background: url('../img/bg_fundo_xl.jpg') no-repeat fixed center top;
+        width: 90%;
+    }
+    .bodytkp {
+        background-origin: content-box;
+        background: url('../img/tkp_fundo_xs.jpg') no-repeat center top !important;
+    }
+
+    .box {
+        display: inline;
+        position: absolute !important;
+        border-radius: 20px;
+        max-width: 370px;
+        top: 280px;
+        left: 30px;
+        right: 25px;
+        margin-bottom: 50px;
+    }
+
+    .box p {
+        font-size: 14px;
+        font-weight: normal;
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    .box form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+
+    .conteudo-a {
+    
+        
+        /*visibility: hidden;
+        width: 0.01%;*/
+        padding-left: 30px;
+    }
+
+    .conteudo-b {
+        margin-top: 0px;
+
+    }
+
+    .conteudo-tkp-a {
+        margin-top: 30px;
+    }
+
+    button {
+        font-size: 12px !important;
+    }
+
+
+}
